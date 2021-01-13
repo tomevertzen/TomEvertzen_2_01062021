@@ -6,6 +6,7 @@ html {
 
 body {
   font-size: 1.6rem;
+  font-family: Raleway, Arial, sans-serif;
 }
 
 *,
@@ -16,4 +17,40 @@ body {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
 /* RESERVIA CSS STARTS HERE */
+
+/* HEADER STYLING */
+
+header {
+  width: 100%;
+  background-color: lightblue;
+  height: 200px;
+}
+
+.header__wrapper {
+  max-width: 114rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  margin: 0 2rem;
+}
