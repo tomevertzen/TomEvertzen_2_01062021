@@ -32,8 +32,6 @@ ul {
 
 header {
   width: 100%;
-  background-color: lightblue;
-  height: 200px;
 }
 
 .header__wrapper {
@@ -53,4 +51,24 @@ nav ul {
 
 nav ul li {
   margin: 0 2rem;
+}
+
+.active {
+  color: #0065fc;
+}
+.activities-link {
+  color: rgb(34, 34, 34);
+}
+
+.signup-link {
+  color: #0065fc;
+  font-weight: 600;
+}
+
+/* MAIN STYLING */
+
+.main__wrapper {
+  max-width: 114rem;
+  margin: 0 auto;
+  padding: 2rem;
 }
