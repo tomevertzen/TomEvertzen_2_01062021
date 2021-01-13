@@ -72,3 +72,50 @@ nav ul li {
   margin: 0 auto;
   padding: 2rem;
 }
+
+/* SEARCH BUTTON STYLING */
+
+/* SEARCH BUTTON SECTION */
+
+.searchbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0rem;
+
+  border: solid 1px #dfdfdf;
+  background-color: #dfdfdf;
+  border-radius: 20px;
+  height: 50px;
+  width: 380px;
+
+  overflow: hidden;
+}
+
+.searchbar__icon {
+  color: rgb(58, 58, 58);
+  background-color: #dfdfdf;
+  margin: 2rem;
+}
+
+.searchbar__input {
+  border: none;
+  flex-grow: 1;
+  height: 100%;
+  padding: 1rem;
+  font-weight: 600;
+  color: rgb(58, 58, 58);
+}
+
+.searchbar__button {
+  background-color: #0065fc;
+  color: white;
+  border: none;
+  min-height: 100%;
+  padding: 2rem;
+  font-weight: 600;
+}
+
+.searchbar__button:hover {
+  background-color: #3485ff;
+}
